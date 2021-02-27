@@ -1,0 +1,8 @@
+#scripts for denon (https://deno.land/x/denon) program runner/monitor
+scripts:
+  start:
+    cmd: "deno run main.ts"
+    allow:
+      - net
+      - read
+    desc: "run my oak example's main.ts file"
